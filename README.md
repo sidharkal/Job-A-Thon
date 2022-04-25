@@ -22,6 +22,7 @@ The main problem in this apporach was the stationarity of the time series. I tri
 
 ### ML Approach
 
-Before building an ML model, feature engineering was done. Basic time related features such as day, month, hour, weekofyear, dayofyear, weekday were created. Aggregated lag features were also created but it did not help imporve score much as there were many missing values.
+
+Before building an ML model, feature engineering was done. Basic time related features such as day, weekday were created. Aggregated lag features were also created but it did not help imporve score much as there were many missing values.
 
 here i used Arima,LSTM and automl model with (pycaret) model 
